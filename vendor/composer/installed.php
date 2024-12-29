@@ -3,7 +3,7 @@
         'name' => 'saddam/portfolio',
         'pretty_version' => 'dev-master',
         'version' => 'dev-master',
-        'reference' => 'a1ffdb12fdcdafc861123bbb02c19eb0140024ee',
+        'reference' => '273bdf02d810658668a3fe2dd5f0506dd1450041',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -103,7 +103,7 @@
         'saddam/portfolio' => array(
             'pretty_version' => 'dev-master',
             'version' => 'dev-master',
-            'reference' => 'a1ffdb12fdcdafc861123bbb02c19eb0140024ee',
+            'reference' => '273bdf02d810658668a3fe2dd5f0506dd1450041',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
