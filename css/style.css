@@ -1,0 +1,162 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.hero {
+    display: flex; /* Ensures the layout is flexbox */
+    align-items: center; /* Vertically centers content */
+    justify-content: flex-end; /* Pushes content to the right */
+    padding: 80px 20px;
+    background: -webkit-repeating-radial-gradient(#042b54, #193b5f);
+    /* background: url('http://localhost/portfolio/assets/images/hero.png') no-repeat center center; */
+    background-size: cover; /* Ensures the image covers the entire background */
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 100%;
+    margin: 20px auto;
+    color: #fff; /* Sets the text color to white */
+    text-align: left; /* Ensures text aligns properly on the right */
+}
+
+.hero-container {
+    max-width: 600px;
+    margin-right: 40px; /* Adds spacing between text and the edge of the hero */
+}
+
+.hero h1 {
+    font-size: 2.5em;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #fff; /* Ensures the heading text is white */
+}
+
+.hero p {
+    font-size: 1.2em;
+    color: #fff; /* Ensures the paragraph text is white */
+    margin-bottom: 30px;
+    line-height: 1.6;
+}
+
+.hero .buttons {
+    display: flex;
+    gap: 20px;
+    justify-content: flex-start; /* Aligns buttons to the start (left within the container) */
+}
+
+
+.container {
+    background: linear-gradient(135deg, #c3ec52, #0ba29d);
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1, h2, h3 {
+    color: #333;
+}
+
+/* .btn {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+} */
+.btn{
+    padding: 12px 20px;
+    background: linear-gradient(135deg, #1e3c72, #2a5298);
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    margin-top: 15px;
+    width: 100%;
+    max-width: 200px;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+.project {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.project h3 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.project p {
+    color: #555;
+    font-size: 16px;
+}
+
+.project .btn {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.project .btn:hover {
+    background-color: #0056b3;
+}
+
+.floating-chat-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #25d366;
+    color: white;
+    font-size: 30px;
+    padding: 15px;
+    border-radius: 50%;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    z-index: 1000;
+    transition: all 0.3s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.floating-chat-btn:hover {
+    background: #128c7e;
+}

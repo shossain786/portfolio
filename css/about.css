@@ -1,0 +1,73 @@
+/* About Section Styles */
+.about-section {
+    padding: 20px;
+    background: linear-gradient(135deg, #c3ec52, #0ba29d);
+    color: black;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    max-width: 90%;
+    margin: auto;
+    font-family: sans-serif;
+}
+
+/* Flexbox Layout for About Content */
+.about-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: center;
+}
+
+/* Left Side: Image */
+.about-image {
+    flex: 1;
+    max-width: 40%;
+    text-align: center;
+}
+
+.about-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Right Side: Text Content */
+.about-text {
+    flex: 2;
+    max-width: 60%;
+}
+
+.about-text h2 {
+    font-size: 56px;
+    margin-bottom: 15px;
+    color: black;
+}
+
+.about-text p {
+    font-size: 18px;
+    line-height: 1.8;
+    margin: 20px 0;
+}
+
+.about-text ul {
+    list-style: disc;
+    margin: 20px 0 0 20px;
+    font-size: 18px;
+}
+
+.about-text ul li {
+    margin-bottom: 10px;
+}
+
+/* For Responsiveness */
+@media (max-width: 768px) {
+    .about-content {
+        flex-direction: column;
+    }
+
+    .about-image,
+    .about-text {
+        max-width: 100%;
+    }
+}
