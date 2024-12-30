@@ -1,34 +1,40 @@
 /* Expertise Section with Animations */
 .expertise-section {
-    padding: 60px 20px;
-    background: linear-gradient(135deg, #f7f9fc, #eef1f7);
-    text-align: center;
-    margin: 20px auto;
-    border-radius: 12px;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+    padding: 20px 20px !important;
+    background: linear-gradient(135deg, #272f3f,#272f3f, #498cf0, #272f3f) !important;
+    text-align: center !important;
+    margin: 10px auto !important;
+    border-radius: 12px !important;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15) !important;
+    width: 90%;
+}
+
+.container {
+    width: 95%;
 }
 
 .expertise-section h2 {
-    font-size: 2.8em;
-    font-weight: bold;
-    color: #333;
-    margin-bottom: 20px;
-    position: relative;
+    font-size: 2.8em !important;
+    font-weight: bold !important;
+    color: white !important;
+    margin-bottom: 20px !important;
+    position: relative !important;
+    font-size: 50px !important;
 }
 
 .expertise-section h2::after {
-    content: '';
-    width: 60px;
-    height: 4px;
-    background: #007bff;
-    display: block;
-    margin: 10px auto 0;
-    border-radius: 2px;
+    content: '' !important;
+    width: 60px !important;
+    height: 4px !important;
+    background: #007bff !important;
+    display: block !important;
+    margin: 10px auto 0 !important;
+    border-radius: 2px !important;
 }
 
 .expertise-description {
     font-size: 1.3em;
-    color: #555;
+    color: #fff;
     margin-bottom: 40px;
     line-height: 1.6;
 }
@@ -64,24 +70,24 @@
 
 /* Expertise Labels with Hover Animation */
 .expertise-list {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 15px;
-    justify-content: center;
+    display: flex !important;
+    flex-wrap: wrap !important;
+    gap: 15px !important;
+    justify-content: center !important;
 }
 
 .expertise-label {
-    display: inline-flex;
-    align-items: center;
-    gap: 8px;
-    padding: 10px 20px;
-    font-size: 16px;
-    color: #fff;
-    border-radius: 50px;
-    font-weight: bold;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-    cursor: pointer;
+    display: inline-flex !important;
+    align-items: center !important;
+    gap: 8px !important;
+    padding: 10px 20px !important;
+    font-size: 16px !important;
+    color: #fff !important;
+    border-radius: 50px !important;
+    font-weight: bold !important;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1) !important;
+    transition: transform 0.3s ease, box-shadow 0.3s ease !important;
+    cursor: pointer !important;
 }
 
 .expertise-label:hover {

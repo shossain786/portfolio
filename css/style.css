@@ -71,7 +71,7 @@ nav ul li a {
 
 
 .container {
-    background: linear-gradient(135deg, #c3ec52, #0ba29d);
+    /* background: linear-gradient(135deg, #c3ec52, #0ba29d); */
     width: 80%;
     margin: 0 auto;
     padding: 20px;
